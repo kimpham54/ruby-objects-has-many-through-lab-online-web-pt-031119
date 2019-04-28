@@ -9,10 +9,10 @@ def initialize(name, artist, genre)
   @genre = genre
   @@all.push(self)
   song = []
-  song << @name
-  song << @artist
-  song << @genre
-  binding.pry
+  # song << @name
+  # song << @artist
+  # song << @genre
+  # binding.pry
 end
 
   def self.all
