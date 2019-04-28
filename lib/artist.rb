@@ -27,7 +27,7 @@ end
 def genres
   # @songs.each do |song|
   #   song.genre
-  Song.all.select do |item|
+  Song.all.map do |item|
     if item.artist == self
     item.genre
   end
