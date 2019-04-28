@@ -16,6 +16,11 @@ def new_appointment(date, patient)
 end
 
 def appointments
+  Appointment.all.map do |item|
+    if item.doctor == self
+      item
+    end
+  end
 end
 
 def patients
