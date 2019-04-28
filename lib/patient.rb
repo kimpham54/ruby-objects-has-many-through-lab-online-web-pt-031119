@@ -25,6 +25,9 @@ def appointments
 end
 
 def doctors
+  Appointment.all.map do |item|
+    if item.patient == self
+      item.doctor
 end
 
 
