@@ -28,7 +28,7 @@ def genres
   # @songs.each do |song|
   #   song.genre
   Song.all.select {|item| item.genre == self}
-  
+
 end
 
 
