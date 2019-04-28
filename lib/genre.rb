@@ -21,7 +21,6 @@ class Genre
     Song.all.map do |item|
       if item.genre == self
       girl = item.artist
-      # @artists << girl
     end
   end
 end
