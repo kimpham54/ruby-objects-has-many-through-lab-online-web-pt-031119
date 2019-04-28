@@ -22,5 +22,6 @@ class Genre
       item.artist
     end
   end
+end
 
 end
