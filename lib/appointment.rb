@@ -3,5 +3,5 @@ attr_accessor :date
 
   @@all = []
 
-  
+
 end
