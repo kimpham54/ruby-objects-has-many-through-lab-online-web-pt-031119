@@ -18,7 +18,7 @@ class Genre
   end
 
   def artists
-    Song.all.select do |item|
+    Song.all.map do |item|
       if item.genre == self
       girl = item.artist
     end
