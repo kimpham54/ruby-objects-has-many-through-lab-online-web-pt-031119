@@ -20,7 +20,7 @@ class Genre
   def artists
     Song.all.select do |item|
       if item.genre == self
-      girl = item.artist
+      item.artist
     end
   end
 end
