@@ -16,7 +16,7 @@ end
 
 def new_song(name, genre)
   song = Song.new(name, self, genre)
-  @songs.push(song)
+  # @songs.push(song)
   # song.artist = self
 end
 
