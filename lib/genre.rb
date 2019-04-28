@@ -1,6 +1,6 @@
 require 'pry'
 class Genre
-  attr_accessor :name
+  attr_accessor :name, :artists
   @@all = []
 
   def initialize(name)
@@ -20,7 +20,8 @@ class Genre
   def artists
     Song.all.select do |item|
       if item.genre == self
-      item.artist
+      girl = item.artist
+      @artists << girl
     end
   end
 end
