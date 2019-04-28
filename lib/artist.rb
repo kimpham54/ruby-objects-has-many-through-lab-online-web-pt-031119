@@ -25,8 +25,8 @@ def songs
 end
 
 def genres
-  @songs.each do |song|
-    song.genre
+  # @songs.each do |song|
+  #   song.genre
   end
 end
 
