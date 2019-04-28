@@ -20,6 +20,8 @@ class Genre
     Song.all.select do |item|
       if item.genre == self
       girl = item.artist
+      
+      binding.pry
       girl
     end
   end
