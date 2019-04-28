@@ -13,11 +13,11 @@ class Genre
   end
 
   def songs
-    genre = Song.all.select {|item| item.genre == self.name}
+    genre = Song.all.select {|item| item.genre == self}
   end
 
   def artists
-    genre = Song.all.select {|item| item.genre == self.name | item.artist}
+    genre = Song.all.select {|item| item.genre == self | item.artist}
   end
 
 end
